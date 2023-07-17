@@ -1,6 +1,6 @@
 package com.lannstark.lec08;
 
-public class Lec08Main {
+public class  Lec08Main {
 
   public static void main(String[] args) {
 
