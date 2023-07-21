@@ -1,7 +1,5 @@
 package com.lannstark.lec10
 
-import java.sql.Driver
-
 fun main() {
   val derived = Derived(300)
   println(derived.number)

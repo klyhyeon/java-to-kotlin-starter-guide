@@ -1,7 +1,8 @@
 package com.lannstark.lec12
 
+
 class Person private constructor(
-  var name: String,
+  val name: String,
   var age: Int
 ) {
 
@@ -40,3 +41,4 @@ private fun moveSomething(movable: Movable) {
 object Singleton {
   var a: Int = 0
 }
+
