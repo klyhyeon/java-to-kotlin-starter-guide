@@ -1,7 +1,7 @@
 package com.lannstark.lec09
 
 class PersonNew(name: String,
-                age: Int) {
+                val age: Int) {
 
   init {
     println("init")
@@ -17,9 +17,6 @@ class PersonNew(name: String,
     set(value) {
       field = value.uppercase()
     }
-
-  var age = age
-    get() = field * 3
 }
 
 fun main() {
